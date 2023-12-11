@@ -1,0 +1,21 @@
+<!-- pages/list/list.wxml-->
+<scroll-view class="container" scroll-y="true">
+ <view>A</view>
+ <view>B</view>
+ <view>C</view>
+</scroll-view>
+
+<swiper class="swiper-container" autoplay="true" indicator-dots="true" indicator-color="white" indicator-active-color="red" interval="2000">
+<swiper-item>
+  <view class="item">a</view>
+</swiper-item>
+<swiper-item>
+  <view class="item">b</view>
+</swiper-item>
+<swiper-item>
+  <view class="item">c</view>
+</swiper-item>
+</swiper>
+<view>
+<text user-select>长按复制1561456465465</text>
+</view>
